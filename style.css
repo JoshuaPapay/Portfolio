@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+main{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F3EFE0;
+}
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% ;
+    background-color: #434242;
+}
+nav h1 {
+    padding-top: 15px;
+    margin-left:80px;
+    font-size: 40px;
+    color: #F3EFE0;
+    
+
+}
+
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav-links li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #F3EFE0;
+    padding: 20px 20px;
+}
+nav img{
+    position: absolute;
+    top: 0;
+    width: 65px;
+    height: 90px;
+    border-radius: 90%;
+}
+nav .circlerad{
+    position: absolute;
+    width: 60px;
+    height: 70px;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 2px;
+    border-radius: 90%;
+    background-color: #F3EFE0;
+}
+.main-page{
+    position: relative;
+    padding: 100px;
+
+}
+.row{
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-col{
+    flex-basis: 50%;
+    margin-top: 220px;
+}
+.left-col h1{
+    margin-top: 30px;
+    font-size: 70px;
+}
+.left-col h2{
+    position: absolute;
+    font-size: 40px;
+    padding-inline-start: 10px;
+}
+.left-col h3{
+    margin-top: 2px;
+    font-size: 25px;
+    padding-inline-start: 40px;
+}
+.right-col{
+    flex-basis: 50%;
+    padding-left: 15%;
+}
+.right-col h2{
+    font-size: 40px;
+    padding-inline-start: 10%;
+}
+.right-col h1{
+    font-size: 50px;
+    padding-inline-start: 1%;
+}
+.right-col p{
+    margin-left: 10px;
+}
+.main-img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: 0;
+   right: 21%;
+   height: 97%;
+}
+.skills {
+    padding-inline-start: 60px;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+}
+.skills img{
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.skills-down{
+    display: flex;
+    align-items: center;
+    padding-inline-start: 60px;
+}
+.skills-down img{
+    width: 50px;
+    margin-left: 20px;
+}
+
+.footer-container h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.footer-line{
+    display: flex;
+    align-items: center;
+    margin: 0 27%;
+    width: 46%;
+    height:3px;
+    background-color: #000;
+}
+.row-abt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+    background-color: white;
+    padding: 6%;
+    border-radius: 120px;
+    
+}
+.vertical {
+    border:2px solid black;
+    height: 200px;
+    position:relative;
+}
+.left-abt h3{
+    
+    margin-bottom: 20px;
+}
+.left-abt h1{
+    margin-top: 1px;
+}
+.center-abt h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.center-abt h1{
+    margin-top: 20px;
+}
+.right-abt h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right-abt h1{
+    position: absolute;
+    margin-top: 20px;
+    top: 35%;
+}
+.contact-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 60px;
+    margin-top: 10px;
+}
+.contacts img{
+    width: 50px;
+    margin-left: 20px;
+}
+.contact-list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
